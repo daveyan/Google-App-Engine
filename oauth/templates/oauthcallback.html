@@ -1,0 +1,38 @@
+<!doctype html>
+	<link rel="stylesheet" type="text/css" href="static/styles.css">
+	<p>Why, hello there {{firstName}} {{lastName}}<br></p>
+	<p>Here's some of the information I was able to pull with that token</p>
+
+	<div style="float:left; width: 50%">
+		<ul style="list-style: none"><br>
+		<li> First Name </li><br>
+		<li> Last Name </li><br>
+		<li> Email </li><br>
+		<li> Google Plus Account </li><br>
+		<li> State Variable</li><br>
+		</ul>
+
+	</div>
+
+	<div style="float:right; width: 50%">
+		<ul style="list-style: none"><br>
+		<li> {{firstName}} </li><br>
+		<li> {{lastName}}</li><br>
+		<li> {{email}} </li><br>
+		<li> <a href={{gurl}}>Link</a></li><br>
+		<li> {{state}}</li><br>
+		</ul>
+
+	</div>
+
+
+	<p><a href={{home_url}}>Return Home</a></p>
+	<!-- REFRENCE 
+	USER smirnov
+	URL https://forums.asp.net//1965101.aspx?Logout+from+Google+once+logged+in+via+web+application
+	 -->
+	<a href="https://www.google.com/accounts/Logout?continue=https://appengine.google.com/_ah/logout?continue=http://localhost:8080/">Sign out</a>
+	
+
+	</div>
+</html>
